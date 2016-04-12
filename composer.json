@@ -1,0 +1,10 @@
+{
+    "name": "davidl/demo-app",
+    "authors": [
+        {
+            "name": "DavidLejeune",
+            "email": "Lejeune.David@outlook.com"
+        }
+    ],
+    "require": {}
+}
