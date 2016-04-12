@@ -1,6 +1,6 @@
 <?php
 namespace DavidL\htmllib;
-
+use DavidL\htmllib\Element;
 
 class Aside extends Element
 {

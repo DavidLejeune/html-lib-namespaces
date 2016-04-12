@@ -3,6 +3,7 @@
 namespace DavidL\htmllib;
 
 
+use DavidL\htmllib\Element;
 
 // this is a comment, dag wereld
 

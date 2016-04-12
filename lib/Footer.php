@@ -2,6 +2,7 @@
 
 namespace DavidL\htmllib;
 
+use DavidL\htmllib\Element;
 
 class Footer extends Element
 {
