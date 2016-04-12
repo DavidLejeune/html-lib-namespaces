@@ -1,14 +1,10 @@
 <?php
 
-$loader = require __DIR__ . '/vendor/autoload.php';
-$loader->add('DavidL\\htmllib\\', __DIR__ . '/lib');
+require __DIR__ . '/vendor/autoload.php';
 
 use DavidL\htmllib\{Aside, Button, Div, Element,Footer,Form,H1,H2,Header,Hr,Image,Input,Nav,P,Section,Span,Table,Td,Th,Tr};
 
-
-
-
- ?>
+?>
 
 <!DOCTYPE html>
 <html>
@@ -18,9 +14,6 @@ use DavidL\htmllib\{Aside, Button, Div, Element,Footer,Form,H1,H2,Header,Hr,Imag
   </head>
   <body>
     <?php
-
-
-
       echo new H1("HTML Lib demo");
       echo new H2("Welcome");
       echo new P('Welcome to my html-lib.');
