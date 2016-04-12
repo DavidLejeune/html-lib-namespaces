@@ -2,8 +2,6 @@
 namespace DavidL\htmllib;
 
 
-require_once("Element.php");
-
 class Aside extends Element
 {
   public function __construct($content)
