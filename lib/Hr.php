@@ -6,21 +6,19 @@ use DavidL\htmllib\Element;
 
 class Hr extends Element
 {
-  public function __construct()
-  {
-    $this->tag = "hr";
-  }
-  public function __toString()
-  {
-    if($this->tag == '')
+    public function __construct()
     {
-      throw new Exception('Element tag is empty.');
+        $this->tag = "hr";
     }
-    $properties = '';
-    foreach ($this->properties as $key => $value)
+    public function __toString()
     {
-      $properties .= "$key=\"$value\" ";
+        if ($this->tag == '') {
+            throw new Exception('Element tag is empty.');
+        }
+        $properties = '';
+        foreach ($this->properties as $key => $value) {
+            $properties .= "$key=\"$value\" ";
+        }
+        return "<$this->tag $properties>";
     }
-    return "<$this->tag $properties>";
-  }
 }
