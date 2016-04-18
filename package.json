@@ -1,0 +1,24 @@
+{
+  "name": "html-lib-namespaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidLejeune/html-lib-namespaces.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidLejeune/html-lib-namespaces/issues"
+  },
+  "homepage": "https://github.com/DavidLejeune/html-lib-namespaces#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-phpcs": "^0.4.0"
+  }
+}

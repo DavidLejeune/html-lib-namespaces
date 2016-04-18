@@ -11,8 +11,41 @@ use DavidL\htmllib\{Aside, Button, Div,Footer,Form,H1,H2,Header,Hr,Image,Input,N
   <head>
     <meta charset="utf-8">
     <title>HTML-lib</title>
+    <script src="js/vendor/jquery.js" charset="utf-8"></script>
+    <script src="js/vendor/foundation.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/foundation.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
+
+
+      <div class="top-bar">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">Site Title</li>
+            <li>
+              <a href="#">One</a>
+              <ul class="menu vertical">
+                <li><a href="#">One</a></li>
+                <li><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li><input type="search" placeholder="Search"></li>
+            <li><button type="button" class="button">Search</button></li>
+          </ul>
+        </div>
+      </div>
+
+
+
+
     <?php
       echo new H1("HTML Lib demo");
       echo new H2("Welcome");
